@@ -1,0 +1,23 @@
+# dati (scaricati da Drive dentro Colab, non versionati)
+*.csv
+chess_error_detection_train.csv
+chess_error_detection_test.csv
+
+# checkpoint / output di training
+wandb/
+*.h5
+*.keras
+checkpoints/
+
+# notebook
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# segreti (mai committare token/API key)
+.env
+*.token
